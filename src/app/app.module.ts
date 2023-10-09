@@ -13,6 +13,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PasswordModule } from 'primeng/password';
 import { AppLayoutModule } from './layout/app.layout.module';
+import { AvatarModule } from 'primeng/avatar';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AppLayoutModule } from './layout/app.layout.module';
     PasswordModule,
     FormsModule,
     ReactiveFormsModule,
-    AppLayoutModule
+    AppLayoutModule,
+    AvatarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
