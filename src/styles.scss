@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Layout */
+@import "assets/layout/styles/layout/layout.scss";
+
+/* PrimeNG */
+@import "node_modules/primeng/resources/primeng.min.css";
+@import "primeflex/primeflex.css";
+@import "primeicons/primeicons.css";
+
+body {
+  font-family: var(--font-family);
+}

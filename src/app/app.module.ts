@@ -12,6 +12,7 @@ import { MovieDetailComponent } from './modules/movies/movie-detail/movie-detail
 import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PasswordModule } from 'primeng/password';
+import { AppLayoutModule } from './layout/app.layout.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { PasswordModule } from 'primeng/password';
     InputTextModule,
     PasswordModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

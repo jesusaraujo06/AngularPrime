@@ -8,9 +8,9 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 })
 export class LoginComponent  {
 
-  
+
   constructor(private formBuilder: FormBuilder){
-    
+
   }
 
   protected formLogin: FormGroup = this.formBuilder.group({
@@ -23,7 +23,7 @@ export class LoginComponent  {
   //     username: ['', Validators.required],
   //     password: ['', Validators.required],
   //   });
-    
+
   // }
 
 
