@@ -1,0 +1,28 @@
+<section>
+  <form [formGroup]="formLogin">
+    <div class="grid">
+      <div class="col-6">
+        <div class="field">
+          <label for="firstname1">Firstname</label>
+          <input
+            type="text"
+            pInputText
+            formControlName="username"
+            class="w-full"
+          />
+        </div>
+        <div class="field">
+          <label for="lastname1">Lastname</label>
+          <p-password
+            formControlName="password"
+            [feedback]="true"
+            name="password"
+            styleClass="w-full"
+            inputStyleClass="w-full"
+          ></p-password>
+        </div>
+        <p-button label="Enviar" (onClick)="Login()"></p-button>
+      </div>
+    </div>
+  </form>
+</section>
