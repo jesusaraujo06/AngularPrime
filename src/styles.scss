@@ -8,6 +8,9 @@
 @import "primeflex/primeflex.css";
 @import "primeicons/primeicons.css";
 
+/* Theme */
+@import "assets/layout/styles/theme/md-light-indigo/theme.css";
+
 body {
   font-family: var(--font-family);
 }

@@ -12,6 +12,14 @@
     align-items: center;
     box-shadow: 0px 3px 5px rgba(0,0,0,.02), 0px 0px 2px rgba(0,0,0,.05), 0px 1px 4px rgba(0,0,0,.08);
 
+    .chip-outlined {
+      background-color: transparent;
+      font-weight: 500;
+      color: var(--primary-color);
+      border: 1px solid var(--primary-color);
+      font-size: 0.8rem;
+    }
+
     .layout-topbar-logo {
         display: flex;
         align-items: center;
@@ -24,6 +32,10 @@
         img {
             height: 2.5rem;
             margin-right: .5rem;
+        }
+
+        span {
+          margin-right: .8rem,
         }
 
         &:focus {

@@ -18,6 +18,7 @@ import { AppConfigModule } from './config/config.module';
 import { AppSidebarComponent } from "./app.sidebar.component";
 import { AppLayoutComponent } from "./app.layout.component";
 import { AvatarModule } from 'primeng/avatar';
+import { ChipModule } from 'primeng/chip';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { AvatarModule } from 'primeng/avatar';
     RouterModule,
     AppConfigModule,
     AvatarModule,
+    ChipModule
   ],
   exports: [AppLayoutComponent],
 })
